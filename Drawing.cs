@@ -47,7 +47,7 @@ namespace MyGame
 
 		public void Draw ()
 		{
-			SwinGame.ClearScreen (Background);
+
 			foreach (Shape shape in _shapes)
 			{
 				shape.Draw ();
