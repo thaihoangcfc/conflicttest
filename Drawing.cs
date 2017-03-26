@@ -47,7 +47,9 @@ namespace MyGame
 
 		public void Draw ()
 		{
-			
+
+			SwinGame.ClearScreen (Color.Green);
+
 			foreach (Shape shape in _shapes)
 			{
 				shape.Draw ();
