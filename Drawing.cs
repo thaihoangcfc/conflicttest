@@ -53,6 +53,18 @@ namespace MyGame
 			}
 		}
 
+		/*public List<Shape> SelectedShapes {
+			get {
+				List<Shape> result = new List<Shape> ();
+				foreach (Shape s in _shapes) {
+					if (s.Selected == true) {
+						result.Add (s);
+					}
+				}
+				return result;
+			}
+		}*/
+
 		public void RemoveShape (List<Shape> Remove)
 		{
 			foreach (Shape s in Remove) {
