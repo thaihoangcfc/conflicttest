@@ -53,6 +53,7 @@ namespace MyGame
 			}
 		}
 
+
 		/*public List<Shape> SelectedShapes {
 			get {
 				List<Shape> result = new List<Shape> ();
