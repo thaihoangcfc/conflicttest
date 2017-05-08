@@ -47,8 +47,6 @@ namespace MyGame
 
 		public void Draw ()
 		{
-
-
 			foreach (Shape shape in _shapes)
 			{
 				shape.Draw ();
