@@ -55,16 +55,6 @@ namespace MyGame
 			}
 		}
 
-		public void SelectShapesAt (Point2D pt)
-		{
-			
-			foreach (Shape s in _shapes) {
-				if (s.IsAt (pt) == true)
-					s.Selected = true;
-				else s.Selected = false;
-			}
-		}
-
 		public void RemoveShape (List<Shape> Remove)
 		{
 			foreach (Shape s in Remove) {
